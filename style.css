@@ -14,21 +14,21 @@ body {
     text-align: center;
     width: 300px;
 }
-.profile-card img {
+.container img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
-.profile-card h2 {
+.container h2 {
     margin: 10px 0;
     font-size: 20px;
 }
-.profile-card p {
+.container p {
     color: #666;
     font-size: 14px;
 }
-.profile-card .btn {
+.container .btn {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 15px;
