@@ -1,5 +1,5 @@
 'use strict'
-const API="https://jsonplaceholder.typicode.com/"
+const API="https://jsonplaceholder.typicode.com/users"
 const container = document.querySelector('.container')
 fetch(API)
 .then((data)=>{
@@ -8,3 +8,6 @@ fetch(API)
     console.log(data);
 
 })
+
+
+
