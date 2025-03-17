@@ -1,9 +1,10 @@
 'use strict'
 const API="https://jsonplaceholder.typicode.com/"
-
-const container = document.querySelect('.container')
-const fetchUser=(resource)=>{
-    const data=fetch(resource)
+const container = document.querySelector('.container')
+fetch(API)
+.then((data)=>{
+    return data.json()
+}).then((data)=>{
     console.log(data);
-}
-fetchUser(API)
+
+})
