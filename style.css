@@ -29,14 +29,16 @@ body {
     font-size: 14px;
 }
 .container .btn {
-    display: inline-block;
+   
     margin-top: 10px;
     padding: 8px 15px;
-    background: #007bff;
+    background: linear-gradient(to right, #0077b6, #00b4d8);
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .container .social{
-    
+    text-decoration: none;
+    color: blue;
 }
